@@ -481,8 +481,8 @@ label {
 @media (max-width: 480px) {
     h2 { font-size: 28px; }
     .nav { 
-        font-size: 6px;
-        margin: 0 8px;
+        font-size: 4px;
+        margin: 0 4px;
     }
     input, textarea { width: 90%; }
 }
