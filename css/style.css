@@ -549,12 +549,12 @@ label {
     }
 
     .nav {
-        font-size: 13px; /* Keep it readable instead of 8px */
+        font-size: 13px; 
         margin: 4px 8px;
     }
 
     #home {
-        flex-direction: column; /* Switching to column prevents text/image clipping on tablets */
+        flex-direction: column; 
         align-items: center;
         margin-top: 80px; 
     }
@@ -579,7 +579,12 @@ label {
     }
     
     .nav { 
-        font-size: 11px; /* Small but readable */
+        font-size: 11px;
+        margin: 4px 6px;
+    }
+
+    .hire {
+        font-size: 11px;
         margin: 4px 6px;
     }
     
