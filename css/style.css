@@ -483,6 +483,11 @@ label {
         text-align: center;
         font-size: 28px; 
     }
+    nav {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
     .nav { 
         font-size: 4px;
         margin: 0;
