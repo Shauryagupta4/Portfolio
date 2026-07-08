@@ -485,7 +485,7 @@ label {
         margin: 0;
         padding-left: 0.2px;
     }
-    input, textarea { width: 90%; }
+    input, textarea { width: 80%; }
 }
 
 @media (max-width: 760px) {
