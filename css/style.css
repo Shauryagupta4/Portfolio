@@ -478,14 +478,16 @@ label {
     transform: scale(1.1);
 }
 
-
-/* @media (max-width: 480px) {
-    h2 { font-size: 28px; }
-    .nav { font-size: 6px; }
-    input, textarea { width: 90%; }
-} */
-
 @media (max-width: 480px) {
+    h2 { font-size: 28px; }
+    .nav { 
+        font-size: 6px;
+        margin: 0 8px;
+    }
+    input, textarea { width: 90%; }
+}
+
+@media (max-width: 760px) {
     nav {
         gap: 5px;
     }
