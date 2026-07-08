@@ -485,8 +485,9 @@ label {
     }
     nav {
         display: flex;
-        flex-direction: column;
-        position: relative;
+        flex-direction: row;
+        position: fixed;
+        justify-content: flex-start;
     }
     .nav { 
         font-size: 4px;
