@@ -482,7 +482,7 @@ label {
     h2 { font-size: 28px; }
     .nav { 
         font-size: 4px;
-        margin: 0 0.2px;
+        margin: 0;
         padding-left: 0.2px;
     }
     input, textarea { width: 90%; }
