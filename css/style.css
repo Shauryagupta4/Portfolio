@@ -479,7 +479,10 @@ label {
 }
 
 @media (max-width: 480px) {
-    h2 { font-size: 28px; }
+    h2 { 
+        text-align: center;
+        font-size: 28px; 
+    }
     .nav { 
         font-size: 4px;
         margin: 0;
