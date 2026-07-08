@@ -239,7 +239,7 @@ nav {
     justify-content: center;
     padding: 20px;
     flex-wrap: wrap; 
-    gap: 10px 15px;
+    gap: 5px 10px;
     height: auto;
     position: fixed;
     top: 0;
