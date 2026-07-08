@@ -483,13 +483,6 @@ label {
         text-align: center;
         font-size: 28px; 
     }
-    nav {
-        display: flex;
-        flex-direction: row;
-        position: fixed;
-        justify-content: flex-start;
-        width: 100vw;
-    }
     .nav { 
         font-size: 1px;
         margin: 0;
