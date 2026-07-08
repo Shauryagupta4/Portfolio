@@ -480,7 +480,7 @@ label {
     cursor: pointer;
     transform: scale(1.1);
 }
-
+/* 
 @media (max-width: 480px) {
     h2 { 
         text-align: center;
@@ -539,5 +539,51 @@ label {
 
     #certification {
         grid-template-rows: auto auto auto;
+    }
+} */
+
+@media (max-width: 760px) {
+    nav {
+        padding: 12px;
+        gap: 8px;
+    }
+
+    .nav {
+        font-size: 13px; /* Keep it readable instead of 8px */
+        margin: 4px 8px;
+    }
+
+    #home {
+        flex-direction: column; /* Switching to column prevents text/image clipping on tablets */
+        align-items: center;
+        margin-top: 80px; 
+    }
+
+    .img {
+        margin-left: 0;
+        width: 40vw;
+        height: auto;
+    }
+
+    #head h1, #head p {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    h2 { 
+        text-align: center;
+        font-size: 24px; 
+    }
+    
+    .nav { 
+        font-size: 11px; /* Small but readable */
+        margin: 4px 6px;
+    }
+    
+    input, textarea { 
+        width: 85%; 
     }
 }
