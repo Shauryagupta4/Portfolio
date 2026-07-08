@@ -238,6 +238,9 @@ nav {
     display: flex;
     justify-content: center;
     padding: 20px;
+    flex-wrap: wrap; 
+    gap: 10px 15px;
+    height: auto;
     position: fixed;
     top: 0;
     left: 0;
