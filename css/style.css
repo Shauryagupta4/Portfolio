@@ -488,6 +488,7 @@ label {
         flex-direction: row;
         position: fixed;
         justify-content: flex-start;
+        width: 100vw;
     }
     .nav { 
         font-size: 4px;
